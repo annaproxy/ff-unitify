@@ -2,10 +2,9 @@
 TODO:
 [ ] An/a replacement
 [ ] Why does google fuck everything
-[ ] On/off with a click
-[ ] Icon
 */
-// Thanks to https://github.com/mdn/webextensions-examples
+// Thanks to https://github.com/mdn/webextensions-examples again
+// https://github.com/mdn/webextensions-examples/tree/master/emoji-substitution
 var PUNCTS = "[.,\/#!$%\^&\'\"*;:{}=\-_`~()]";
 
 function replaceText(node, uppercase) {
@@ -38,7 +37,7 @@ function replaceText(node, uppercase) {
 
             tagged = message.result;
             tagged_lower = message.lowercased;
-            //console.log(tagged);
+
             content = ""
             for (var i = 0; i < tagged.length; i++) {
                 tt = tagged[i];
@@ -47,7 +46,7 @@ function replaceText(node, uppercase) {
                 if (!PUNCTS.includes(hi[0])) {
                     content += " ";
                 }
-
+                // Replace all lowercase NN/NNS
                 if (tt['pos'] == 'NN') {
                     content += "unit"
                 } 
@@ -56,6 +55,7 @@ function replaceText(node, uppercase) {
                     content += "units"
                 }
                 
+                // If uppercase=True, also replace uppercase NN/NNS.
                 else if (uppercase & tt_lower['pos'] == 'NN'){
                     content += "Unit";
                 }
