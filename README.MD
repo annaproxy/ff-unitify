@@ -5,6 +5,6 @@ Once you unitify a page, all nouns on the page are replaced with the word "unit"
 
 ## Credits
 
-Credits to [another AI student](https://github.com/flipflop97/unitify) who kindled my idea for a unit automation browser extension.
+Credits to [another AI student](https://github.com/flipflop97/unitify) for rekindling my idea for a unit automation browser extension.
 
 The extension uses [wink pos-tagger](https://winkjs.org/). 
