@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Unitify",
+  "version": "0.1",
+
+  "description": "Replace all nouns with 'unit' ",
+  "homepage_url": "https://www.github.com/annaproxy",
+  "icons": {
+    "48": "badlogo.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts" : ["postagger_bundled.js"]
+  },
+
+  "content_scripts":[{
+    "matches" : ["<all_urls>"],
+    "js": ["unit.js"]
+  }],
+
+  "browser_action": {
+    "default_icon": "badlogo.png",
+    "default_title": "Unitify",
+    "default_popup" : "screen.html" 
+  }
+
+}

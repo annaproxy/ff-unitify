@@ -1,0 +1,37 @@
+html, body {
+    width: 100px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .options {
+    font-size: 0.75em;
+  }
+  
+  .button {
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+  .on {
+    background-color: #00cc66;
+  }
+  
+  .off {
+    background-color: #ff3333;
+  }
+
+  .capital {
+      font-size: 0.75em;
+      background-color: #ffaa66;
+  }
