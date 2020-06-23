@@ -10,7 +10,7 @@ After:
 
 ## How to use it?
 ### Installation
-Haha, clone this repository and add it as a debug extension at `about:addons` (press `Install add-on from file` or `Debug add-ons` and add it manually). Not sure if you will ever be able to 'officially' use it in firefox.
+Haha, clone this repository and add it as a debug extension at `about:addons` (press `Install add-on from file` and select `xpi/unitify-x.x-xx.xpi` or `Debug add-ons` and add it manually by selecting any file in the directory). 
 
 ### Unitify a page
 Press the green icon that says "Unitify" and then click "On". You can also press "Include capitalized words" for more effect:
