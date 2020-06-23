@@ -21,6 +21,6 @@ To de-unitify, click "Off" or simply refresh the page.
 
 ## Credits
 
-Credits to [another AI student](https://github.com/flipflop97/unitify) for rekindling my idea for a unit automation browser extension.
+Credits to [another AI student](https://github.com/flipflop97/unitify) for rekindling my idea for a unit automation browser extension. Check out [their repository](https://github.com/flipflop97/unitify) if you want to unitify your texts with python.
 
 The extension uses [wink pos-tagger](https://winkjs.org/). 
