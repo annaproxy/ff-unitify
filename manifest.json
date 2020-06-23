@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Unitify",
-  "version": "0.1",
+  "version": "0.1.1",
 
   "description": "Replace all nouns with 'unit' ",
   "homepage_url": "https://www.github.com/annaproxy",
