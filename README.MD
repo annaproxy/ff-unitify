@@ -1,6 +1,6 @@
 # Unitify
 
-Once you unitify a page, all nouns on the page are replaced with the word "unit". As an AI student, I have been replacing nouns with the word "unit" since 2015 myself. This is a handy way to automate it.
+Once you unitify a page, all nouns on the page are replaced with the word "unit". As an AI student, I have been replacing nouns with the word "unit" myself since 2015. This is a handy way to automate it.
 
 Before:
 ![No unitify](examples/wikipage.png)
